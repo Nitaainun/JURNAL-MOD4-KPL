@@ -10,9 +10,11 @@ namespace modul4_1302200019
     {
         static void Main(string[] args)
         {
-            Penjumlahan <long> penjumlahan = new Penjumlahan<long>(T);
-            long nim = 13 + 02 + 20;
-            nim.printAngka(nim);
+            Penjumlahan <long> penjumlahan = new Penjumlahan<long>();
+            long a = 13;
+            long b = 02; 
+            long c = 20;
+            penjumlahan.printAngka(jumlahTigaAngka);
 
         }
     }
@@ -23,9 +25,9 @@ namespace modul4_1302200019
         {
             this.jumlahTigaAngka = jumlahTigaAngka;
         }
-        public void printAngka(T nim)
+        public void printAngka(T jumlahTigaAngka)
         {
-            Console.WriteLine(nim);
+            Console.WriteLine("nim = " + jumlahTigaAngka) ;
         }
 
     }
