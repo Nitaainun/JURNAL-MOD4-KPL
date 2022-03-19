@@ -18,7 +18,7 @@ namespace modul4_1302200019
 
         }
     }
-<<<<<<< HEAD
+
     public class Penjumlahan<T>
     {
         private T jumlahTigaAngka;
@@ -32,7 +32,6 @@ namespace modul4_1302200019
         }
 
     }
-=======
 
     public class SimpelDataBase<T>
     {
@@ -51,8 +50,4 @@ namespace modul4_1302200019
         {
             Console.WriteLine();
         }
-
-    }
-
->>>>>>> implementasi-generic-class
 }
