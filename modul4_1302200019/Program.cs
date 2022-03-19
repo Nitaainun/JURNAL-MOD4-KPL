@@ -18,6 +18,7 @@ namespace modul4_1302200019
 
         }
     }
+<<<<<<< HEAD
     public class Penjumlahan<T>
     {
         private T jumlahTigaAngka;
@@ -31,4 +32,27 @@ namespace modul4_1302200019
         }
 
     }
+=======
+
+    public class SimpelDataBase<T>
+    {
+            private List<T>storeData;
+            private List<DateTime>inputDates;
+
+        public SimpleDataBase(List<T>storeData)
+        {
+
+        }
+        public void AddNewData(T a)
+        {
+            this.storeData.Add(a);
+        }
+        public void PrintAllData()
+        {
+            Console.WriteLine();
+        }
+
+    }
+
+>>>>>>> implementasi-generic-class
 }
