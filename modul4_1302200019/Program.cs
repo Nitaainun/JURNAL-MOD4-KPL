@@ -15,7 +15,22 @@ namespace modul4_1302200019
 
     public class SimpelDataBase<T>
     {
-        public T Data { get; set; }
+            private List<T>storeData;
+            private List<DateTime>inputDates;
+
+        public SimpleDataBase(List<T>storeData)
+        {
+
+        }
+        public void AddNewData(T a)
+        {
+            this.storeData.Add(a);
+        }
+        public void PrintAllData()
+        {
+            Console.WriteLine();
+        }
+
     }
 
 }
