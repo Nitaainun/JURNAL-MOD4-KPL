@@ -12,4 +12,10 @@ namespace modul4_1302200019
         {
         }
     }
+
+    public class SimpelDataBase<T>
+    {
+        public T Data { get; set; }
+    }
+
 }
